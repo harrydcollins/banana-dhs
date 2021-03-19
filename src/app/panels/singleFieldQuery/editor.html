@@ -1,0 +1,13 @@
+<div class="row-fluid">
+    <div class="span12">
+        <h6>Field</h6>
+        <input bs-typeahead="fields.list" type="text" placeholder="Required field" class="input-large"
+               ng-model="panel.field" ng-change="set_refresh(true)">
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <h6>Enable autocomplete (typeahead)</h6>
+        <input type="checkbox" ng-model="panel.autocomplete" ng-checked="panel.autocomplete">
+    </div>
+</div>
